@@ -1,0 +1,43 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: system-ui, sans-serif;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.header {
+    font-size: 2.5rem;
+    color: #1e90ff;
+}
+  
+.about {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #444;
+}
+  
+.links {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+}
+  
+.links li {
+    margin: 0.5rem 0;
+}
+  
+.links a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
